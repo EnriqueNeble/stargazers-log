@@ -1,0 +1,46 @@
+[
+  {
+    "type": "starred",
+    "starredAt": "2026-09-18",
+    "repository": {
+      "name": "octocat/Hello-World",
+      "description": "A starter repository for trying out GitHub workflows.",
+      "url": "https://github.com/octocat/Hello-World",
+      "language": "Markdown",
+      "stars": 3210
+    }
+  },
+  {
+    "type": "starred",
+    "starredAt": "2026-08-02",
+    "repository": {
+      "name": "sindresorhus/awesome",
+      "description": "A curated list of awesome things.",
+      "url": "https://github.com/sindresorhus/awesome",
+      "language": "",
+      "stars": 380000
+    }
+  },
+  {
+    "type": "starred",
+    "starredAt": "2026-06-21",
+    "repository": {
+      "name": "public-apis/public-apis",
+      "description": "A collective list of free APIs for use in software and web development.",
+      "url": "https://github.com/public-apis/public-apis",
+      "language": "Python",
+      "stars": 360000
+    }
+  },
+  {
+    "type": "starred",
+    "starredAt": "2026-04-10",
+    "repository": {
+      "name": "vitejs/vite",
+      "description": "Next generation frontend tooling.",
+      "url": "https://github.com/vitejs/vite",
+      "language": "TypeScript",
+      "stars": 78000
+    }
+  }
+]
