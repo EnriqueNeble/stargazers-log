@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Stargazers log</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Un registro de los repositorios que he marcado con una estrella en GitHub.">
+    <title>Repositorios destacados</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main class="page-shell">
+      <header class="page-header">
+        <p class="eyebrow">Archivo personal / GitHub</p>
+        <h1>Repositorios destacados</h1>
+        <p class="intro">Un registro de los repositorios que he marcado con una estrella.</p>
+      </header>
+      <section class="repository-section" aria-labelledby="repository-heading">
+        <div class="section-heading">
+          <h2 id="repository-heading">Colección</h2>
+          <p id="repository-count" class="repository-count" aria-live="polite">Cargando...</p>
+        </div>
+        <ul id="repositories" class="repository-list" aria-live="polite"></ul>
+      </section>
+    </main>
   </body>
 </html>

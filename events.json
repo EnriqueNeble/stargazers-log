@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Spoon-Knife",
+    "owner": "octocat",
+    "url": "https://github.com/octocat/Spoon-Knife",
+    "description": "Un repositorio de ejemplo para practicar forks, ramas y pull requests.",
+    "language": "HTML",
+    "stars": 12800,
+    "starredAt": "2025-03-18"
+  },
+  {
+    "name": "Hello-World",
+    "owner": "octocat",
+    "url": "https://github.com/octocat/Hello-World",
+    "description": "El primer paso clásico para empezar a trabajar con GitHub.",
+    "language": "Shell",
+    "stars": 3200,
+    "starredAt": "2025-02-06"
+  },
+  {
+    "name": "great-reading",
+    "owner": "muan",
+    "url": "https://github.com/muan/great-reading",
+    "description": "Una colección comunitaria de lecturas recomendadas.",
+    "language": "JavaScript",
+    "stars": 910,
+    "starredAt": "2024-11-22"
+  },
+  {
+    "name": "public-apis",
+    "owner": "public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "description": "Directorio de APIs públicas para proyectos y experimentos.",
+    "language": "Python",
+    "stars": 340000,
+    "starredAt": "2024-08-10"
+  }
+]
