@@ -1,11 +1,19 @@
 :root {
   color-scheme: light;
+<<<<<<< HEAD
   --paper: #f6f5ef;
   --ink: #202923;
   --muted: #66716a;
   --rule: #cdd3c8;
   --green: #315b45;
   --gold: #b67a19;
+=======
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: #202b2a;
+  background: #f5f7f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+>>>>>>> add-starred-list
 }
 
 * {
@@ -15,6 +23,7 @@
 body {
   min-height: 100vh;
   margin: 0;
+<<<<<<< HEAD
   border-top: 5px solid var(--green);
   background-color: var(--paper);
   background-image: radial-gradient(#68776819 0.7px, transparent 0.7px);
@@ -38,6 +47,26 @@ body {
   margin: 0 0 18px;
   color: var(--green);
   font-size: 0.75rem;
+=======
+  background-image: linear-gradient(135deg, rgb(231 240 227 / 72%), transparent 42%);
+}
+
+.page-shell {
+  width: min(100% - 40px, 780px);
+  margin: 0 auto;
+  padding: 76px 0 88px;
+}
+
+.page-header {
+  padding-bottom: 38px;
+  border-bottom: 1px solid #d9e0d8;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #37705e;
+  font-size: 0.78rem;
+>>>>>>> add-starred-list
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -45,11 +74,16 @@ body {
 
 h1,
 h2,
+<<<<<<< HEAD
+=======
+h3,
+>>>>>>> add-starred-list
 p {
   margin-top: 0;
 }
 
 h1 {
+<<<<<<< HEAD
   max-width: 12ch;
   margin-bottom: 14px;
   font-family: Georgia, serif;
@@ -63,11 +97,28 @@ h1 {
   margin-bottom: 0;
   color: var(--muted);
   font-size: 1rem;
+=======
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 8vw, 4rem);
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+.intro {
+  margin-bottom: 0;
+  color: #58645f;
+  font-size: 1.05rem;
+>>>>>>> add-starred-list
   line-height: 1.6;
 }
 
 .repository-section {
+<<<<<<< HEAD
   padding-top: 30px;
+=======
+  padding-top: 32px;
+>>>>>>> add-starred-list
 }
 
 .section-heading {
@@ -75,6 +126,7 @@ h1 {
   align-items: baseline;
   justify-content: space-between;
   gap: 16px;
+<<<<<<< HEAD
   margin-bottom: 4px;
 }
 
@@ -83,12 +135,27 @@ h2 {
   font-family: Georgia, serif;
   font-size: 1.45rem;
   font-weight: 400;
+=======
+  margin-bottom: 14px;
+}
+
+.section-heading h2 {
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 700;
+>>>>>>> add-starred-list
 }
 
 .repository-count {
   margin-bottom: 0;
+<<<<<<< HEAD
   color: var(--muted);
   font-size: 0.85rem;
+=======
+  color: #65726b;
+  font-size: 0.85rem;
+  white-space: nowrap;
+>>>>>>> add-starred-list
 }
 
 .repository-list {
@@ -98,6 +165,7 @@ h2 {
 }
 
 .repository-item {
+<<<<<<< HEAD
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 8px 24px;
@@ -166,5 +234,98 @@ h2 {
 
   .repository-item {
     gap: 8px 12px;
+=======
+  padding: 22px 0 21px;
+  border-top: 1px solid #d9e0d8;
+  animation: appear 360ms ease-out both;
+}
+
+.repository-item h3 {
+  margin-bottom: 7px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.28rem;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.repository-item a {
+  color: #17644f;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.repository-item a:hover {
+  color: #a44f2d;
+}
+
+.repository-item a:focus-visible {
+  border-radius: 2px;
+  outline: 3px solid #df9c60;
+  outline-offset: 4px;
+}
+
+.repository-description {
+  margin-bottom: 13px;
+  color: #58645f;
+  line-height: 1.55;
+}
+
+.repository-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  color: #65726b;
+  font-size: 0.82rem;
+}
+
+.repository-details > * + *::before {
+  content: "·";
+  margin-right: 18px;
+  color: #a44f2d;
+}
+
+.list-message {
+  padding: 22px 0;
+  border-top: 1px solid #d9e0d8;
+  color: #58645f;
+}
+
+.list-message--error {
+  color: #a43f37;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-shell {
+    width: min(100% - 32px, 780px);
+    padding-top: 48px;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+>>>>>>> add-starred-list
   }
 }
